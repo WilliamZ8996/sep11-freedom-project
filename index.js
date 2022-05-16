@@ -47,7 +47,7 @@ const firebaseConfig = {
           document.querySelector("#userAffirm").value = ""
           if(listAffirm[num] != ""){
             var ul = document.createElement("li")
-            ul.innerHTML = listAffirm[num]
+            ul.innerHTML += listAffirm[num]
             document.querySelector("#uls").appendChild(ul) 
             console.log(info)
           }
